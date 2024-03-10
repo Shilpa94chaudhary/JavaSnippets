@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TemperatureConverter",
+      "request": "launch",
+      "mainClass": "part1.TemperatureConverter",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "FirstClass",
+      "request": "launch",
+      "mainClass": "FirstClass",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "Conditions",
+      "request": "launch",
+      "mainClass": "part1.Conditions",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "GradingSystem",
+      "request": "launch",
+      "mainClass": "part1.GradingSystem",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "LeapYearChecker",
+      "request": "launch",
+      "mainClass": "part1.LeapYearChecker",
+      "projectName": "JavaSnippets_1dc4c79f"
+    }
+  ]
+}
