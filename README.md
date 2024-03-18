@@ -17,5 +17,14 @@ Welcome to Part 1 of your Java programming journey! This folder contains a set o
    - Filename: `LeapYearChecker.java`
 
 3. **Temperature Converter**
+
    - Description:Build a program that converts temperatures between Fahrenheit and Celsius based on user input.
    - Filename: `TemperatureConverter.java`
+
+4. **Loops**
+
+   - for loop
+   - while loop
+   - do while loop
+
+5. **Print Patterns**
