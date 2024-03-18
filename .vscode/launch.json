@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintPattern",
+      "request": "launch",
+      "mainClass": "part1.PrintPattern",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "Loops",
+      "request": "launch",
+      "mainClass": "part1.Loops",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "TemperatureConverter",
       "request": "launch",
       "mainClass": "part1.TemperatureConverter",
