@@ -28,3 +28,5 @@ Welcome to Part 1 of your Java programming journey! This folder contains a set o
    - do while loop
 
 5. **Print Patterns**
+
+6. **Function & Methods**
