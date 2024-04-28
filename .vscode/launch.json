@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FunctionCall",
+      "request": "launch",
+      "mainClass": "part2.FunctionCall",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "EOF",
+      "request": "launch",
+      "mainClass": "problems.EOF",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "Functions",
       "request": "launch",
       "mainClass": "part1.Functions",
