@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class TimeComplexity {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
@@ -14,7 +13,7 @@ public class TimeComplexity {
             System.out.println("Hello");
         }
 
-        // Time Complexity is n*n, O(n*m)
+        // Time Complexity is n*n or n^2, O(n*n)
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.println("Hello");
@@ -35,7 +34,6 @@ public class TimeComplexity {
         for (int j = 0; j < m; j++) {
             System.out.println("Hello");
         }
-
         sc.close();
     }
 }

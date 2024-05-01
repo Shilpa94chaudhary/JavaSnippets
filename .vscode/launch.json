@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoDArray",
+      "request": "launch",
+      "mainClass": "part2.TwoDArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "FindXinArray",
+      "request": "launch",
+      "mainClass": "part2.FindXinArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "Arrays",
+      "request": "launch",
+      "mainClass": "part2.Arrays",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "FunctionCall",
       "request": "launch",
       "mainClass": "part2.FunctionCall",
