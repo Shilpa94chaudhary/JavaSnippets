@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "part2.Strings",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "TwoDArray",
       "request": "launch",
       "mainClass": "part2.TwoDArray",
