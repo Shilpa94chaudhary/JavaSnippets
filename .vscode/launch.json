@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "duplicateInString",
+      "request": "launch",
+      "mainClass": "problems2.duplicateInString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "guessNum",
+      "request": "launch",
+      "mainClass": "problems.guessNum",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "printArray",
+      "request": "launch",
+      "mainClass": "problems.printArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "problems2.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "convertIntToString",
+      "request": "launch",
+      "mainClass": "problems.convertIntToString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "Strings",
       "request": "launch",
       "mainClass": "part2.Strings",
