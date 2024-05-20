@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "classMethod",
+      "request": "launch",
+      "mainClass": "part3.classMethod",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "hashMapExample",
+      "request": "launch",
+      "mainClass": "problems2.hashMapExample",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "staticMethod",
+      "request": "launch",
+      "mainClass": "problems2.staticMethod",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "stringOp",
+      "request": "launch",
+      "mainClass": "problems2.stringOp",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "index",
+      "request": "launch",
+      "mainClass": "problems2.index",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "printAllChar",
+      "request": "launch",
+      "mainClass": "problems2.printAllChar",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "compareString",
+      "request": "launch",
+      "mainClass": "problems2.compareString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "hash",
       "request": "launch",
       "mainClass": "problems2.hash",
