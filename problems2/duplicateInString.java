@@ -48,7 +48,7 @@ public class duplicateInString {
         Map<String, Integer> wordCount = countDuplicate(s);
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
             if (entry.getValue() > 1) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
+                System.out.println(entry.getKey() + " : " + entry.getValue());
             }
         }
         String result1 = capitalizeEvenIndices1(s);
