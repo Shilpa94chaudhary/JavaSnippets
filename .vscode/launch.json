@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "js",
+      "request": "launch",
+      "mainClass": "javaTest.js",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "javaTest.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "java.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "anagrams",
       "request": "launch",
       "mainClass": "problems2.anagrams",
