@@ -1,6 +1,6 @@
 package part3;
 
-class Mobile {
+class Mobiles {
     String brand;
     int price;
     static String name;
@@ -10,7 +10,7 @@ class Mobile {
         System.out.println(brand + " : " + price + " : " + name);
     }
 
-    public static void showData(Mobile m) {
+    public static void showData(Mobiles m) {
         System.out.println("This is static method");
         // We can use static variable inside static method but
         // we cannot use non static variable in static method
@@ -24,21 +24,21 @@ class Mobile {
 
 public class staticVariable {
     public static void main(String[] args) {
-        Mobile m1 = new Mobile();
+        Mobiles m1 = new Mobiles();
         m1.brand = "Apple";
         m1.price = 67000;
-        Mobile.name = "SmartPhone";
+        Mobiles.name = "SmartPhone";
         m1.show();
 
-        Mobile m2 = new Mobile();
+        Mobiles m2 = new Mobiles();
         m2.brand = "Samsung";
         m2.price = 120000;
         m2.show();
 
-        Mobile m3 = new Mobile();
+        Mobiles m3 = new Mobiles();
         m3.brand = "OnePlus";
         m3.price = 40000;
 
-        Mobile.showData(m3);
+        Mobiles.showData(m3);
     }
 }
