@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "js",
+      "request": "launch",
+      "mainClass": "javaTest.js",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "javaTest.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "java.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "anagrams",
+      "request": "launch",
+      "mainClass": "problems2.anagrams",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "practice",
+      "request": "launch",
+      "mainClass": "problems3.practice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "map",
+      "request": "launch",
+      "mainClass": "problems2.map",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "replaceString",
+      "request": "launch",
+      "mainClass": "problems2.replaceString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "encap",
+      "request": "launch",
+      "mainClass": "part3.encap",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "staticBlock",
+      "request": "launch",
+      "mainClass": "part3.staticBlock",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "staticVariable",
+      "request": "launch",
+      "mainClass": "part3.staticVariable",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "stringProb",
+      "request": "launch",
+      "mainClass": "part3.stringProb",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "classMethod",
       "request": "launch",
       "mainClass": "part3.classMethod",
