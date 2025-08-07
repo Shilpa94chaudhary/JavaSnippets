@@ -1,4 +1,4 @@
-package exceptionHandling;
+package part4;
 
 public class exceptionPractice {
     public static void main(String[] args) {

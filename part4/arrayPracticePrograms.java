@@ -1,4 +1,4 @@
-package nab;
+package part4;
 
 public class arrayPracticePrograms {
 
@@ -65,12 +65,6 @@ public class arrayPracticePrograms {
             System.out.println("Array is sorted");
         else
             System.out.println("Array is not sorted");
-    }
-
-    // Remove duplicate elements from an array (without Set or List)
-    public static void removeDuplicate(int[] arr) {
-        int[] newArr = { arr[0] };
-
     }
 
     public static void main(String[] args) {

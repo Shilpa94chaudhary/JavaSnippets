@@ -1,4 +1,4 @@
-package nab;
+package part4;
 
 public class conditionalStt {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javaTest;
+package problems5;
 
 import java.util.HashMap;
 import java.util.Map;
