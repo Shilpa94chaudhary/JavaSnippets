@@ -6,6 +6,209 @@
   "configurations": [
     {
       "type": "java",
+      "name": "arrayPracticePrograms",
+      "request": "launch",
+      "mainClass": "nab.arrayPracticePrograms",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "map",
+      "request": "launch",
+      "mainClass": "nab.map",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "setInJava",
+      "request": "launch",
+      "mainClass": "nab.setInJava",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "arrayList",
+      "request": "launch",
+      "mainClass": "nab.arrayList",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "collectionInJava",
+      "request": "launch",
+      "mainClass": "nab.collectionInJava",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "stringPracticePrograms",
+      "request": "launch",
+      "mainClass": "nab.stringPracticePrograms",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "stringPrograms",
+      "request": "launch",
+      "mainClass": "nab.stringPrograms",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "exceptionPractice",
+      "request": "launch",
+      "mainClass": "exceptionHandling.exceptionPractice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "loops",
+      "request": "launch",
+      "mainClass": "nab.loops",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "conditionalStt",
+      "request": "launch",
+      "mainClass": "nab.conditionalStt",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "inputPractice",
+      "request": "launch",
+      "mainClass": "nab.inputPractice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "exceptionHandling",
+      "request": "launch",
+      "mainClass": "exceptionHandling.exceptionHandling",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "operators",
+      "request": "launch",
+      "mainClass": "nab.operators",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "constants",
+      "request": "launch",
+      "mainClass": "nab.constants",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "casting",
+      "request": "launch",
+      "mainClass": "nab.casting",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "arrayPractice",
+      "request": "launch",
+      "mainClass": "nab.arrayPractice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "dataType",
+      "request": "launch",
+      "mainClass": "nab.dataType",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "stringPractice",
+      "request": "launch",
+      "mainClass": "nab.stringPractice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "output",
+      "request": "launch",
+      "mainClass": "nab.output",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "problems4.Practice",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "practice.test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "removeVowel",
+      "request": "launch",
+      "mainClass": "javaTest.removeVowel",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "practive2",
+      "request": "launch",
+      "mainClass": "practice.practive2",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "practice1",
+      "request": "launch",
+      "mainClass": "practice.practice1",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "duplicateWords",
+      "request": "launch",
+      "mainClass": "javaTest.duplicateWords",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "duplicateInArray",
+      "request": "launch",
+      "mainClass": "javaTest.duplicateInArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "staticDynamicBinding",
+      "request": "launch",
+      "mainClass": "part3.staticDynamicBinding",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "listSet",
+      "request": "launch",
+      "mainClass": "javaTest.listSet",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "js",
       "request": "launch",
       "mainClass": "javaTest.js",

@@ -1,9 +1,9 @@
-package javaTest;
+package problems5;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class js {
+public class removeVowel {
 
     public static void main(String[] args) {
         String name = "Shilpa Chaudhary";
