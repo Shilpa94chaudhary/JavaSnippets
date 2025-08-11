@@ -9,7 +9,6 @@ public class findMinNumberOfCabs {
 
         for (int n : p)
             totalPass += n;
-
         for (int i = 0; i < s.length; i++) {
             for (int j = i + 1; j < s.length; j++) {
                 if (s[i] < s[j]) {
@@ -19,7 +18,6 @@ public class findMinNumberOfCabs {
                 }
             }
         }
-
         for (int n : s) {
             if (totalPass > 0) {
                 totalPass -= n;

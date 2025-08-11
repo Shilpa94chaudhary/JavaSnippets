@@ -113,6 +113,32 @@ public class arrayPracticePrograms {
     }
 
     // Sort the array in ascending/descending order (using loops only)
+    public static void sortArr(int arr[], char ch) {
+        for (int i = 0; i < arr.length; i++) {
+            if (ch == 'a' || ch == 'A') {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if (arr[i] > arr[j]) {
+                        int temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            } else {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if (arr[i] < arr[j]) {
+                        int temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+        }
+        System.out.print("[ ");
+        for (int n : arr) {
+            System.out.print(n + " ");
+        }
+        System.out.println("]");
+    }
 
     public static void main(String[] args) {
         int[] arr = { 23, 14, 64, 9, 23, 67, 4, 88, -1 };
@@ -129,5 +155,6 @@ public class arrayPracticePrograms {
         checkArraySorting(arr1);
         removeDuplicate(arr2);
         uniqueElements(arr2);
+        sortArr(arr, 'd');
     }
 }
