@@ -1,5 +1,7 @@
 package part4;
 
+import java.util.Scanner;
+
 public class arrayPracticePrograms {
 
     // Find the maximum and minimum element in an array
@@ -67,9 +69,55 @@ public class arrayPracticePrograms {
             System.out.println("Array is not sorted");
     }
 
+    // Remove duplicate elements from an array (without Set or List)
+    public static void removeDuplicate(int[] arr) {
+        int[] newArr = new int[arr.length];
+        int size = 0;
+        for (int i = 0; i < arr.length; i++) {
+            boolean isPresent = false;
+            for (int j = 0; j < size; j++) {
+                if (arr[i] == newArr[j])
+                    isPresent = true;
+            }
+            if (!isPresent) {
+                newArr[size] = arr[i];
+                size++;
+            }
+        }
+        System.out.print("[");
+        for (int j = 0; j < size; j++)
+            System.out.print(newArr[j] + " ");
+        System.out.println("]");
+    }
+
+    // Print all unique elements in the array
+    public static void uniqueElements(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int count = 0;
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] == arr[j])
+                    count++;
+            }
+            if (count == 1)
+                System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Find all pairs with a given sum. Example: [1,2,3,4,5], Sum = 6 → Pairs:
+    // (1,5), (2,4)
+    public static void findPair(int[] arr) {
+        Scanner sc = new Scanner(System.in);
+
+        sc.close();
+    }
+
+    // Sort the array in ascending/descending order (using loops only)
+
     public static void main(String[] args) {
         int[] arr = { 23, 14, 64, 9, 23, 67, 4, 88, -1 };
         int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+        int[] arr2 = { 1, 3, 5, 61, 7, 8, 2, 4, 5, 7, 1, 4, 6, 1, 4, 11 };
         for (int n : arr) {
             System.out.print(n + " ");
         }
@@ -79,5 +127,7 @@ public class arrayPracticePrograms {
         revArr(arr);
         checkArraySorting(arr);
         checkArraySorting(arr1);
+        removeDuplicate(arr2);
+        uniqueElements(arr2);
     }
 }
