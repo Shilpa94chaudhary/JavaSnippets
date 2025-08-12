@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "loopPracticePrograms",
+      "request": "launch",
+      "mainClass": "part4.loopPracticePrograms",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "findMinNumberOfCabs",
+      "request": "launch",
+      "mainClass": "problems6.findMinNumberOfCabs",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "arrayPracticePrograms",
+      "request": "launch",
+      "mainClass": "part4.arrayPracticePrograms",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "arrayPracticePrograms",
       "request": "launch",
       "mainClass": "nab.arrayPracticePrograms",
