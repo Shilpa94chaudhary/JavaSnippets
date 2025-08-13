@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findFrequency",
+      "request": "launch",
+      "mainClass": "problems6.findFrequency",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "maxSumArray",
+      "request": "launch",
+      "mainClass": "problems6.maxSumArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "reverseVowel",
+      "request": "launch",
+      "mainClass": "problems6.reverseVowel",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "mergeSortedArray",
+      "request": "launch",
+      "mainClass": "problems6.mergeSortedArray",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "wordMaxFrequency",
+      "request": "launch",
+      "mainClass": "problems6.wordMaxFrequency",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "subString",
+      "request": "launch",
+      "mainClass": "problems6.subString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "polymorphism",
+      "request": "launch",
+      "mainClass": "part5.polymorphism",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "penClass",
       "request": "launch",
       "mainClass": "part5.penClass",
