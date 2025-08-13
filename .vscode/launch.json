@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "penClass",
+      "request": "launch",
+      "mainClass": "part5.penClass",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "reverseWord",
+      "request": "launch",
+      "mainClass": "problems6.reverseWord",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "getMaxNonRepNum",
+      "request": "launch",
+      "mainClass": "problems6.getMaxNonRepNum",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "removeZero",
+      "request": "launch",
+      "mainClass": "problems6.removeZero",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "loopPracticePrograms",
       "request": "launch",
       "mainClass": "part4.loopPracticePrograms",
