@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "highestNonRepeating",
+      "request": "launch",
+      "mainClass": "problems6.highestNonRepeating",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "removeDuplicate",
+      "request": "launch",
+      "mainClass": "problems6.removeDuplicate",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "capitaliseEachWordString",
+      "request": "launch",
+      "mainClass": "problems6.capitaliseEachWordString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "reverseString",
+      "request": "launch",
+      "mainClass": "problems6.reverseString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "checkTriplet",
+      "request": "launch",
+      "mainClass": "problems6.checkTriplet",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "secondRepNum",
+      "request": "launch",
+      "mainClass": "problems6.secondRepNum",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "findFrequency",
       "request": "launch",
       "mainClass": "problems6.findFrequency",
