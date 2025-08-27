@@ -10,21 +10,26 @@ public class longestSubString {
 
     public static void longestSubStringNR(String str) {
         int count = 0;
+        String subString = "";
         for (int i = 0; i < str.length(); i++) {
             int newCount = 0;
+            String subStr = "";
             Set<Character> set = new HashSet<>();
             for (int j = i; j < str.length(); j++) {
                 if (!set.contains(str.charAt(j))) {
                     set.add(str.charAt(j));
+                    subStr += str.charAt(j);
                     newCount++;
                 } else {
-                    if (newCount > count) {
-                        count = newCount;
-                    }
+                    break;
                 }
             }
+            if (newCount > count) {
+                count = newCount;
+                subString = subStr;
+            }
         }
-        System.out.println(count);
+        System.out.println(subString + " " + count);
     }
 
     public static void main(String[] arg) {
