@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "expandChar",
+      "request": "launch",
+      "mainClass": "problems6.expandChar",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "map",
+      "request": "launch",
+      "mainClass": "part4.map",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "removeSubString",
+      "request": "launch",
+      "mainClass": "problems6.removeSubString",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
+      "name": "changeVowel",
+      "request": "launch",
+      "mainClass": "changeVowel",
+      "projectName": "JavaSnippets_1dc4c79f"
+    },
+    {
+      "type": "java",
       "name": "mergeString",
       "request": "launch",
       "mainClass": "problems6.mergeString",
